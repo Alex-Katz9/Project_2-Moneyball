@@ -1,5 +1,5 @@
 # Project_2-Moneyball
-# Predicting University Graduation Rates
+# Predicting OBP of MLB players
 
 ## **Objective:**
 Build a regression model to predict the OBP of MLB players.
