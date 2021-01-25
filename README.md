@@ -2,7 +2,7 @@
 # Predicting OBP of MLB players
 
 ## **Objective:**
-Build a regression model to predict the OBP of MLB players.
+Build a regression model to predict the OBP (on base percentage) of MLB players.
 
 ## **Approach:**
 Initially data from 26 features was gathered, but only 6 features were included in the final model (Age, Strikeouts, Homeruns, Stolent Bases, RBIs, Positions, Intentional Walks).  Additionally, feature engineering was done to add a multiplicative interaction term between the homeruns and RBIs.  The training data was evaluated on linear regression, ridge regression, and LASSO regression models, both with the features as is and standard scaled, in order to optimize for R2 and MSE.
